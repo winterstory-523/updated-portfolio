@@ -48,7 +48,7 @@ export default function AboutMe(props) {
                 a <span className="text-AAsecondary">strong passion</span> for 
                 <span className="text-AAsecondary"> problem-solving</span> and creating 
                 <span className="text-AAsecondary"> impactful codes</span>. I embarked on my computer science 
-                journey in 2014, initially exploring game developing. However, I soon realized 
+                journey in 2017, initially exploring game developing. However, I soon realized 
                 the importance of <span className="text-AAsecondary">web programming</span> skills and began my journey.
               </span>
             </div>
