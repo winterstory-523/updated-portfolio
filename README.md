@@ -2,14 +2,14 @@
   <img alt="Logo" src="https://github-production-user-asset-6210df.s3.amazonaws.com/140221270/261695020-61a17c2f-b790-434e-b8c4-d85a398a4830.png" width="100" />
 </div>
 <h1 align="center">
-  louis-walter-dev0725.vercel.app - v1
+  erielle-joeshua-bancolita.vercel.app - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://louis-walter-dev0725.vercel.app/" target="_blank">louis-walter-dev0725.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of <a href="https://erielle-joeshua-bancolita.vercel.app/" target="_blank">erielle-joeshua-bancolita.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
-  <a href="https://louis-walter-dev0725.vercel.app/" target="_blank">
+  <a href="https://erielle-joeshua-bancolita.vercel.app/" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
 </p>
@@ -67,7 +67,7 @@ Why Tailwindcss? Because TailwindCSS, a utility-first CSS framework, is a framew
 
 MIT License
 
-Copyright (c) [2023] [Louis Walter]
+Copyright (c) [2023] [Erielle Joeshua Bancolita]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -93,8 +93,8 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Louis Walter](https://www.linkedin.com/in/louis-walter-dev725//)
-- Website - [Louis Walter](https://louis-walter-dev0725.vercel.app/)
+- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/louis-walter-dev725//)
+- Website - [Erielle Joeshua Bancolita](https://erielle-joeshua-bancolita.vercel.app/)
 
 [Back To The Top](#description) :
 
