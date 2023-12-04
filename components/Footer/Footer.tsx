@@ -11,10 +11,10 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/louis-dev0725", Icon: GithubIcon },
+  { href: "https://github.com/eriellebancolita017", Icon: GithubIcon },
   { href: "https://www.linkedin.com/in/louis-walter-dev725/louis-dev0725/", Icon: LinkedinIcon },
   { href: "https://t.me/LioDev0308", Icon: TelegramIcon },
-  { href: "https://discord.gg/NScWgpWHU8", Icon: DiscordIcon },
+  { href: "https://discord.gg/vxeDxeAbbn", Icon: DiscordIcon },
 ];
 
 export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
@@ -32,7 +32,7 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Built by Louis Walter
+            Built by Erielle Bancolita
           </span>
 
           <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
