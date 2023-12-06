@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import Zendure from "./Descriptions/Zendure";
+import GameSeven from "./Descriptions/GameSeven";
 import ShiftKey from "./Descriptions/ShiftKey";
 import Sertus from "./Descriptions/Sertus";
 import Signature from "./Descriptions/Signature";
@@ -12,8 +12,8 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "Zendure":
-        return <Zendure />;
+      case "GameSeven":
+        return <GameSeven />;
       case "ShiftKey, LLC":
         return <ShiftKey />;
       case "Sertus Ltd":
@@ -24,7 +24,7 @@ export default function WhereIHaveWorked() {
         return <Jacuzzi />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Zendure");
+  const [DescriptionJob, setDescriptionJob] = React.useState("GameSeven");
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "Where I've Worked" */}
@@ -110,10 +110,10 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Zendure"
+            CompanyName="Game 7"
             BarPosition={-1}
             BarAvobePosition={0}
-            DescriptionJob="Zendure"
+            DescriptionJob="GameSeven"
             CompanyNameBackgroundColorGreen={[true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

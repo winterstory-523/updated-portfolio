@@ -1,15 +1,19 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function Zendure() {
+export default function GameSeven() {
   const tasks = [
     {
-      text: "Produced effective revenue-generating solutions, increasing customer base by large percentage",
-      keywords: ["effective"],
+      text: "Rebuilt the official website (game7.io) using React and Tailwind CSS from Figma design",
+      keywords: ["React", "Tailwind CSS"],
     },
     {
-      text: "Created beautiful and intuitive user experiences",
-      keywords: ["beautiful", "intuitive"],
+      text: "Integrated Contentful API for Blog, Newsletter and Legal Pages, and Airtable API for form management",
+      keywords: ["Integrated Contentful API", "Airtable API"],
+    },
+    {
+      text: "Rebuild 5 other sub websites using React, Next.js, Styled component and Tailwind CSS",
+      keywords: ["5", "React", "Next.js", "Styled component", "Tailwind CSS"],
     },
   ];
   return (
@@ -18,17 +22,17 @@ export default function Zendure() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            E-commerce Development <span className="text-AAsecondary">@ Shopify</span>
+            Front-End Development <span className="text-AAsecondary">@ React</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">July 2022 - March 2023</span>
+          <span className="font-mono text-xs text-gray-500">Sep 2023 - Nov 2023</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
             onClick={() => window.open("https://zendure.com/", "_blank")}
           >
-            zendure.com
+            game7.io
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
