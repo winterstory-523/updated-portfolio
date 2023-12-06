@@ -44,7 +44,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://www.signature.co.nz/" target={"_blank"} rel="noreferrer">
+              <a href="https://game7.io/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -52,7 +52,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/Signature.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/GameSeven.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/Signature.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/GameSeven.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -72,20 +72,20 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Signature </span>
-                <a href="https://www.signature.co.nz/" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">Game 7 </span>
+                <a href="https://game7.io/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Signature Homes Ltd
+                    Game 7 company
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
-                  At <span className="text-AAsecondary">Signature</span>, I played a crucial role in developing the frontend for their 
-                  <span className="text-AAsecondary"> compnay website</span> using Vue.js and Nuxt.js. 
-                  Our focus was on integrating new features and improving the user interface. achievement was
-                   <span className="text-AAsecondary"> optimizing</span>{" "}
-                   the frontend and <span className="text-AAsecondary">improving </span>SEO score using Unit test. 
+                  At <span className="text-AAsecondary">Game7</span>, I played a crucial role in developing the frontend for their 
+                  <span className="text-AAsecondary"> compnay website</span> using React and Tailwind CSS. 
+                  My focus was on implementing the design <span className="text-AAsecondary">pixel-perfectly</span> with designers. Then integrated
+                   <span className="text-AAsecondary"> Contentful API</span>{" "}
+                   and <span className="text-AAsecondary">Airtable API </span>for blog, newsletter and legal page contents. 
                    This showcased our commitment to delivering innovative solution
                 </p>
               </div>
@@ -94,13 +94,12 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">JavaScript</span>
-                <span className="pr-4 z-10">SCSS</span>
-                <span className="pr-4 z-10">Vue.js</span>
-                <span className="pr-4 z-10">Nuxt.js</span>
-                <span className="pr-4 z-10">Node.js</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">Contentful API</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.signature.co.nz/" target={"_blank"} rel="noreferrer">
+                <a href="https://game7.io/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
