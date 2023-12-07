@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import GameSeven from "./Descriptions/GameSeven";
-import ShiftKey from "./Descriptions/ShiftKey";
+import Samurai from "./Descriptions/Samurai";
 import Sertus from "./Descriptions/Sertus";
 import Signature from "./Descriptions/Signature";
 import Jacuzzi from "./Descriptions/Jacuzzi";
@@ -14,8 +14,8 @@ export default function WhereIHaveWorked() {
     switch (DescriptionJob) {
       case "GameSeven":
         return <GameSeven />;
-      case "ShiftKey, LLC":
-        return <ShiftKey />;
+      case "Samurai Inc":
+        return <Samurai />;
       case "Sertus Ltd":
         return <Sertus />;
       case "Signature":
@@ -119,10 +119,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="ShiftKey, LLC"
+            CompanyName="Samurai Inc"
             BarPosition={46}
             BarAvobePosition={128}
-            DescriptionJob="ShiftKey, LLC"
+            DescriptionJob="Samurai Inc"
             CompanyNameBackgroundColorGreen={[false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
