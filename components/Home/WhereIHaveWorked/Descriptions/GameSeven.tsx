@@ -22,10 +22,10 @@ export default function GameSeven() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Front-End Development <span className="text-AAsecondary">@ React</span>
+            Front-End Developer <span className="text-AAsecondary">@ React</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Sep 2023 - Nov 2023</span>
+          <span className="font-mono text-xs text-gray-500">September 2023 - November 2023</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute

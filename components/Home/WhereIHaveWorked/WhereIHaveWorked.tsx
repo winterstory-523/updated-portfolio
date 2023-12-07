@@ -5,7 +5,7 @@ import GameSeven from "./Descriptions/GameSeven";
 import Samurai from "./Descriptions/Samurai";
 import Sertus from "./Descriptions/Sertus";
 import Signature from "./Descriptions/Signature";
-import Jacuzzi from "./Descriptions/Jacuzzi";
+import Symph from "./Descriptions/Symph";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -20,8 +20,8 @@ export default function WhereIHaveWorked() {
         return <Sertus />;
       case "Signature":
         return <Signature />;
-      case "Jacuzzi® Spa Pools":
-        return <Jacuzzi />;
+      case "Symph":
+        return <Symph />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("GameSeven");
@@ -128,10 +128,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="Jacuzzi® Spa Pools"
+            CompanyName="Symph AI Incorporation"
             BarPosition={100}
             BarAvobePosition={256}
-            DescriptionJob="Jacuzzi® Spa Pools"
+            DescriptionJob="Symph"
             CompanyNameBackgroundColorGreen={[false, false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
