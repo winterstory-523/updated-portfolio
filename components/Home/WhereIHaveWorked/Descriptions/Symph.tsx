@@ -2,19 +2,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function Jacuzzi() {
+export default function Symph() {
   const tasks = [
     {
-      text: "Built Frontend UI that is pixel-perfect from design and fully responsive for all cross browsers including Google Chrome, Firefox, Safari on Desktop, Mobile, Tablet devices.",
-      keywords: ["pixel-perfect", "fully responsive", "all cross browsers"],
+      text: "Created user-friendly interfaces using React/Next.js, Redux, HTML, CSS, Tailwind CSS, ES6+ JavaScript and Typescript",
+      keywords: ["React/Next.js", "Redux", "HTML", "CSS", "Tailwind CSS", "ES6+", "JavaScript and Typescript",],
     },
     {
-      text: "Integrated with backend APIs, worked with GitHub, Trello",
-      keywords: ["Integrated", "APIs", "GitHub", "Trello"],
+      text: "Collaborated closely with the design team to drive the seamless implementation of responsive web designs and ensured cross-browser compatibility",
+      keywords: ["Collaborated", "team", "responsive", "cross-browser compatibility"],
     },
     {
-      text: "Communicated with team on slack",
-      keywords: ["team","slack"],
+      text: "Integrated RESTful APIs to fetch and update data in real-time, implemented state management using Redux, enabling efficient data flow and organization",
+      keywords: ["Integrated","state management"],
+    },
+    {
+      text: "Optimized application performance by identifying and resolving bottlenecks; achieved a 30% increase in LightHouse performance score and SEO score",
+      keywords: ["Optimized","30% increase", "SEO score"],
     },
   ];
 
@@ -27,14 +31,14 @@ export default function Jacuzzi() {
           Frontend developer <span className="text-AAsecondary">@ React</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2020</span>
+          <span className="font-mono text-xs text-gray-500">February 2022 - June 2022</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https://www.jacuzzispas.com.au/", "_blank")}
+            onClick={() => window.open("https://www.symph.co/", "_blank")}
           >
-            www.jacuzzispas.com.au
+            www.symph.co
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
