@@ -183,7 +183,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://www.jacuzzispas.com.au/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.symph.co/" target="_blank" rel="noopener noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -191,7 +191,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/Jacuzzi.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/Symph.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -202,7 +202,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/Jacuzzi.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/Symph.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -211,16 +211,16 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Jacuzzi</span>
-                <a href="https://www.jacuzzispas.com.au/" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">Symph</span>
+                <a href="https://www.symph.co/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Jacuzzi® Spa Pools
+                    Symph AI Inc
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                In <span className="text-AAsecondary">Jacuzzi</span>, my role was also frontend development, and they had existing team, 
+                In <span className="text-AAsecondary">Symph</span>, my role was also frontend development, and they had existing team, 
                 so I need to collaborate with them.
                 We worked with <span className="text-AAsecondary">Agile</span> systems and chose <span className="text-AAsecondary">Async</span> working method since the timezone problem. 
                 The communication was great, and I contributed to the product&apos;s success.
@@ -230,13 +230,13 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">TypeScript</span>
-                <span className="pr-4 z-10">SCSS</span>
+                <span className="pr-4 z-10">Typescript</span>
                 <span className="pr-4 z-10">React</span>
-                <span className="pr-4 z-10">Node.js</span>
+                <span className="pr-4 z-10">Redux</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.jacuzzispas.com.au/" target={"_blank"} rel="noreferrer">
+                <a href="https://www.symph.co/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
