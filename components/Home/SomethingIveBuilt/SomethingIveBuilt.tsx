@@ -115,13 +115,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://sertus.uk/"} target="_blank" rel="noreferrer">
+              <a href={"https://apps.apple.com/us/app/samurai-financial-protection/id6449479926/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/Sertus.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/Samurai.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/Sertus.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/Samurai.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -141,20 +141,20 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Sertus</span>
-                <a href="https://sertus.uk/" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">Samurai</span>
+                <a href="https://apps.apple.com/us/app/samurai-financial-protection/id6449479926/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Sertus Ltd
+                    Samurai Technologies Inc
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to work with <span className="text-AAsecondary">Sertus</span> Ltd, which makes smoke ventilation products. 
-                  I collaborated with a cross-functioning team of 5 top-tier engineers 
+                  I had the opportunity to work with <span className="text-AAsecondary">Samurai</span> Inc, which helps people to protect the financial wallet. 
+                  I collaborated with a cross-functioning team of 3 top-tier engineers 
                   and tried to build a <span className="text-AAsecondary">user-friendly</span> interface. 
-                  Here is a company website{" "}
-                  <span className="text-AAsecondary"> Sertus</span>.
+                  Here is the app{" "}
+                  <span className="text-AAsecondary"> Samurai</span>.
                 </p>
               </div>
               <ul
@@ -162,13 +162,13 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">JavaScript</span>
-                <span className="pr-4 z-10">React</span>
-                <span className="pr-4 z-10">Gatsby</span>
-                <span className="pr-4 z-10">Styled Components</span>
+                <span className="pr-4 z-10">Vue.js</span>
+                <span className="pr-4 z-10">Ionic Framework</span>
+                <span className="pr-4 z-10">Vuex</span>
                 <span className="pr-4 z-10">GSAP</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://sertus.uk/" target={"_blank"} rel="noreferrer">
+                <a href="https://apps.apple.com/us/app/samurai-financial-protection/id6449479926/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
