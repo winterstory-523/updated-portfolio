@@ -252,13 +252,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://apps.apple.com/us/app/shiftkey-prn-healthcare-jobs/id1532097671" target="_blank" rel="noopener noreferrer">
+              <a href="https://templates.centricminds.net/" target="_blank" rel="noopener noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"ShiftKey.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"CentricMinds.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -269,7 +269,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"ShiftKey.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"CentricMinds.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -278,37 +278,36 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">ShiftKey</span>
-                <a href="https://apps.apple.com/us/app/shiftkey-prn-healthcare-jobs/id1532097671" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">CentricMinds</span>
+                <a href="https://templates.centricminds.net/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    ShiftKey App
+                    CentricMinds Inc
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                The <span className="text-AAsecondary">ShiftKey</span> app allows you to connect CNAs, LPNs, RNs, RTs, PTs 
-                and other healthcare professionals with open shifts at facilities in your area. 
-                In this project, we discussed what&apos;ll to use for the project 
-                and decided to use <span className="text-AAsecondary"></span>React Native for fast and high-quality development.
-                It was a <span className="text-AAsecondary">high-quality mobile app </span> 
-                that is not only <span className="text-AAsecondary">visually appealing </span> 
-                but also <span className="text-AAsecondary">intuitive</span>, 
-                <span className="text-AAsecondary"> easy to use</span> and 
-                <span className="text-AAsecondary"> bug-free</span>.
+                The <span className="text-AAsecondary">CentricMinds </span>is a modern Intranet, Extranet & Website management platform connecting your team across desktop and mobile. 
+                In this project, my role was <span className="text-AAsecondary">front-end developer</span> and I implemented the design pixel-perfectly to Invision design.
+                The templates were based on <span className="text-AAsecondary">Velocity Template CMS </span> 
+                and they <span className="text-AAsecondary">worked </span> 
+                by <span className="text-AAsecondary">template unit</span>, so I updated the style according to the template.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">TypeScript</span>
-                <span className="pr-4 z-10">Google Firebase</span>
-                <span className="pr-4 z-10">GraphQL</span>
-                <span className="pr-4 z-10">React Native</span>
+                <span className="pr-4 z-10">HTML</span>
+                <span className="pr-4 z-10">SCSS</span>
+                <span className="pr-4 z-10">Velocity Template</span>
+                <span className="pr-4 z-10">Ruby</span>
+                <span className="pr-4 z-10">Java</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <ExternalLink url={""} router={router} />
+                <a href="https://templates.centricminds.net/" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                </a>
               </div>
             </div>
           </div>
