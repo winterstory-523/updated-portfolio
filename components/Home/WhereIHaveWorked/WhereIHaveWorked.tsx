@@ -3,7 +3,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import GameSeven from "./Descriptions/GameSeven";
 import Samurai from "./Descriptions/Samurai";
-import Sertus from "./Descriptions/Sertus";
+import TOSE from "./Descriptions/Tose";
 import Signature from "./Descriptions/Signature";
 import Symph from "./Descriptions/Symph";
 export default function WhereIHaveWorked() {
@@ -16,8 +16,8 @@ export default function WhereIHaveWorked() {
         return <GameSeven />;
       case "Samurai Inc":
         return <Samurai />;
-      case "Sertus Ltd":
-        return <Sertus />;
+      case "TOSE Inc":
+        return <TOSE />;
       case "Signature":
         return <Signature />;
       case "Symph":
@@ -137,10 +137,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="Sertus Ltd"
+            CompanyName="TOSE Inc"
             BarPosition={153}
             BarAvobePosition={384}
-            DescriptionJob="Sertus Ltd"
+            DescriptionJob="TOSE Inc"
             CompanyNameBackgroundColorGreen={[false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
