@@ -93,7 +93,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/louis-walter-dev725//)
+- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/erielle-joeshua-bancolita-991515256)
 - Website - [Erielle Joeshua Bancolita](https://erielle-joeshua-bancolita.vercel.app/)
 
 [Back To The Top](#description) :
