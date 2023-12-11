@@ -4,7 +4,7 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import GameSeven from "./Descriptions/GameSeven";
 import Samurai from "./Descriptions/Samurai";
 import TOSE from "./Descriptions/Tose";
-import Signature from "./Descriptions/Signature";
+import NEC from "./Descriptions/Nec";
 import Symph from "./Descriptions/Symph";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -18,8 +18,8 @@ export default function WhereIHaveWorked() {
         return <Samurai />;
       case "TOSE Inc":
         return <TOSE />;
-      case "Signature":
-        return <Signature />;
+      case "NEC":
+        return <NEC />;
       case "Symph":
         return <Symph />;
     }
@@ -146,10 +146,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-            CompanyName="Signature Homes Ltd"
+            CompanyName="NEC Telecom Software"
             BarPosition={207}
             BarAvobePosition={512}
-            DescriptionJob="Signature"
+            DescriptionJob="NEC"
             CompanyNameBackgroundColorGreen={[false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
