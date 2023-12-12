@@ -371,10 +371,10 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Shopify</span>
-                <span className="pr-4 z-10">GSAP</span>
-                <span className="pr-4 z-10">Payment Integration</span>
-                <span className="pr-4 z-10">Slick</span>
+                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <a href="https://loadconnect.io/" target={"_blank"} rel="noreferrer">
