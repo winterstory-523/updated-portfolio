@@ -14,7 +14,7 @@
   </a>
 </p>
 
-![demo](https://github-production-user-asset-6210df.s3.amazonaws.com/115100114/261684766-3f60f800-3d0e-47c9-b3e6-d9443da5ee01.png)
+![image](https://github.com/AmazingDev0815/erielle-bancolita-portfolio/assets/108821027/8325c686-04fc-49b9-94ad-11e54318c67b)
 
 ---
 ### Table of Contents
