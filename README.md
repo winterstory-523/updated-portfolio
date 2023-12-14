@@ -96,7 +96,7 @@ SOFTWARE.
 - Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/erielle-joeshua-bancolita-991515256)
 - Website - [Erielle Joeshua Bancolita](https://erielle-joeshua-bancolita.vercel.app/)
 
-Built in 2023
+Complete in December 2023
 
 [Back To The Top](#description) :
 
