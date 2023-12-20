@@ -82,7 +82,7 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
                   At <span className="text-AAsecondary">Game7</span>, I played a crucial role in developing the frontend for their 
-                  <span className="text-AAsecondary"> compnay website</span> using React and Tailwind CSS. 
+                  <span className="text-AAsecondary"> company website</span> using React and Tailwind CSS. 
                   My focus was on implementing the design <span className="text-AAsecondary">pixel-perfectly</span> with designers. Then integrated
                    <span className="text-AAsecondary"> Contentful API</span>{" "}
                    and <span className="text-AAsecondary">Airtable API </span>for blog, newsletter and legal page contents. 
