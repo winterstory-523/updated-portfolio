@@ -25,7 +25,7 @@ export default function AboutMe(props) {
         </div>
 
         {/* // ?Image in Mobile */}
-        <div className=" relative w-full h-48 md:hidden  flex justify-center items-center !my-16">
+        {/* <div className=" relative w-full h-48 md:hidden  flex justify-center items-center !my-16">
           <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
           <div className="absolute w-48 h-full rounded overflow-hidden">
             <Img
@@ -35,6 +35,24 @@ export default function AboutMe(props) {
             />
           </div>
           <div className="absolute w-48 h-full  bg-AAsecondary opacity-10 md:opacity-60  rounded overflow-hidden"></div>
+        </div> */}
+        <div className="w-full h-48 flex justify-center items-center !my-16 !mt-32 md:hidden">
+          <div className="group relative lg:w-96 lg:h-96 w-72 h-72">
+            <div
+              className="group-hover:translate-x-3 group-hover:translate-y-3
+               duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
+               translate-y-5 rounded"
+            ></div>
+
+            <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
+              <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
+              <Img
+                src={"/Portfolio-portrait.png"}
+                className={"object-contain rounded-lg"}
+                alt="My Image Not Found"
+              />
+            </div>
+          </div>
         </div>
 
         {/* // ? Paragraphs */}
