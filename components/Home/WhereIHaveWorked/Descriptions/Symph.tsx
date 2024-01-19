@@ -24,7 +24,7 @@ export default function Symph() {
 
   return (
     <>
-      <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
+      <div className="flex flex-col space-y-5 flex-1 sm:max-w-xl px-2 md:px-0">
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">

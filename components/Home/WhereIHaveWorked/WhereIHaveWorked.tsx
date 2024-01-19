@@ -41,8 +41,8 @@ export default function WhereIHaveWorked() {
       </section>
       {/* // ? Where I've Worked Content section */}
       <section
-        className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0
-      justify-center md:justify-center items-center md:items-start "
+        className="flex flex-row sm:flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0
+      justify-center md:justify-center items-center md:items-start min-h-[480px] sm:min-h-[240px]"
       >
         {/* // ? Left side of Where I've Worked, contains the bar and name of companies */}
         <CompaniesBar setDescriptionJob={setDescriptionJob} />
@@ -74,7 +74,7 @@ const CompaniesBar = props => {
         }}
         className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-AAsecondary
              hover:bg-ResumeButtonHover rounded  font-mono  
-             py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
+             py-3 md:pl-6 md:px-4 md:w-44 sm:w-32 w-24 duration-500
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
                  ? "bg-ResumeButtonHover text-AAsecondary"
@@ -106,8 +106,8 @@ const CompaniesBar = props => {
         ></motion.div>
       </div>
       {/* // ? Companies name as buttons */}
-      <div className="flex flex-col md:order-2 order-1 space-y-1 ">
-        <div className="flex flex-row md:flex-col">
+      <div className="flex flex-col md:order-2 order-1 space-y-1 w-24 sm:w-full">
+        <div className="flex flex-col sm:flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="Game 7"
@@ -154,7 +154,7 @@ const CompaniesBar = props => {
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>
-        <div className="block md:hidden h-0.5 rounded bg-gray-500">
+        <div className="hidden sm:block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
         </div>
       </div>
