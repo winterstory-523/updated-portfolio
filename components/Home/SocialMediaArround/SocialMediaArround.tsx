@@ -38,7 +38,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Telegram Icon */}
             <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/LioDev0308"} />
             {/* Discord Icon */}
-            <IconClickableWithAnimation Icon={DiscordIcon} href={"https://discord.gg/NScWgpWHU8"} />
+            <IconClickableWithAnimation Icon={DiscordIcon} href={"https://discord.gg/vxeDxeAbbn"} />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
