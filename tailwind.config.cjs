@@ -48,6 +48,9 @@ module.exports = {
         "4xl": "2560px",
         "5xl": "3840px",
       },
+      maxWidth: {
+        "8xl": "1536px",
+      }
     },
   },
   plugins: [require("tailwind-scrollbar"), require("tailwind-scrollbar-hide")],
