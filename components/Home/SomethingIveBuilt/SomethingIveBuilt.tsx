@@ -12,7 +12,7 @@ export default function SomethingIveBuilt() {
     <div
       id="SomethingIveBuiltSection"
       className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
-     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
+     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4 max-w-8xl"
     >
       {/* // ? Title  */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">

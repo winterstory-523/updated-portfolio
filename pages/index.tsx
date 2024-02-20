@@ -54,7 +54,6 @@ export default function Home() {
     Aos.init({ duration: 500, once: true });
   }, []);
 
-  console.log("Portfolio Rendered...");
   const meta = {
     title: "Erielle Joeshua Bancolita - Web Developer",
     description: `I've been working on Web development for over 6 years straight. Get in touch with me to know more.`,
@@ -82,7 +81,7 @@ export default function Home() {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
-      <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
+      <div className="relative flex flex-col items-center snap-mandatory min-h-screen bg-AAprimary w-full ">
         {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
         {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
         <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
