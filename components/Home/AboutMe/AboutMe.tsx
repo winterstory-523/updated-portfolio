@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["JavaScript (ES6+)", "React", "Vue.js", "Angular", "Ionic framework", "Material UI", "Node.js", "PHP"],
-    ["TypeScript", "Next.js", "Nuxt.js", "React Native", "Tailwind CSS", "BootStrap", "Nest.js", "Laravel"],
+    ["JavaScript (ES6+)", "React", "Vue.js", "Angular", "Ionic framework", "Material UI", "Node.js", "PHP", "AWS", "Git"],
+    ["TypeScript", "Next.js", "Nuxt.js", "React Native", "Tailwind CSS", "BootStrap", "Nest.js", "Laravel", "GCP", "Agile"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary max-w-8xl">
