@@ -25,7 +25,7 @@ export default function GameSeven() {
             Front-End Developer <span className="text-AAsecondary">@ React</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">September 2023 - November 2023</span>
+          <span className="font-mono text-xs text-gray-500">September 2023 - February 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
