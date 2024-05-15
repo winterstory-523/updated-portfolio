@@ -93,7 +93,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273//)
+- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273/)
 - Website - [Erielle Joeshua Bancolita](https://erielle-joeshua-bancolita.vercel.app/)
 
 Built in 2023
