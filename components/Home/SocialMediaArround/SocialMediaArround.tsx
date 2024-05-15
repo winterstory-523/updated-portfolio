@@ -34,7 +34,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Github Icon */}
             <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/eriellebancolita017"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/erielle-joeshua-bancolita-dev061700/"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273//"} />
             {/* Telegram Icon */}
             <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/LioDev0308"} />
             {/* Discord Icon */}
