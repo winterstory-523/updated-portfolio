@@ -11,8 +11,8 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/eriellebancolita017", Icon: GithubIcon },
-  { href: "https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273/", Icon: LinkedinIcon },
+  { href: "https://github.com/AmazingDev0815", Icon: GithubIcon },
+  { href: "https://www.linkedin.com/in/richard-steward-ba1842273/", Icon: LinkedinIcon },
   { href: "https://t.me/LioDev0308", Icon: TelegramIcon },
   { href: "https://discord.gg/vxeDxeAbbn", Icon: DiscordIcon },
 ];
@@ -32,7 +32,7 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Built by Erielle Bancolita
+            Built by Richard Stewart
           </span>
 
           <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">

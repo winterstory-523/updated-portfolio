@@ -55,7 +55,7 @@ export default function Home() {
   }, []);
 
   const meta = {
-    title: "Erielle Joeshua Bancolita - Web Developer",
+    title: "Richard Stewart - Web Developer",
     description: `I've been working on Web development for over 6 years straight. Get in touch with me to know more.`,
     image: "/myPortfolio.png",
     type: "website",
@@ -68,8 +68,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`erielle-bancolita-portfolio.vercel.app`} />
-        <link rel="canonical" href={`erielle-bancolita-portfolio.vercel.app`} />
+        <meta property="og:url" content={`richard-stewart-portfolio.vercel.app`} />
+        <link rel="canonical" href={`richard-stewart-portfolio.vercel.app`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
@@ -92,7 +92,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/eriellebancolita017/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/AmazingDev0815"} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}

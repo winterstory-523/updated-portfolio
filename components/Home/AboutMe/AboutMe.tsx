@@ -61,7 +61,7 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is <span className="text-AAsecondary">Erielle Joeshua Bancolita</span>, 
+                Hello! My name is <span className="text-AAsecondary">Richard Stewart</span>, 
                 a <span className="text-AAsecondary">talented software engineer</span> with 
                 a <span className="text-AAsecondary">strong passion</span> for 
                 <span className="text-AAsecondary"> problem-solving</span> and creating 

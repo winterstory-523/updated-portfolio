@@ -2,26 +2,28 @@
   <img alt="Logo" src="https://github-production-user-asset-6210df.s3.amazonaws.com/140221270/261695020-61a17c2f-b790-434e-b8c4-d85a398a4830.png" width="100" />
 </div>
 <h1 align="center">
-  erielle-joeshua-bancolita.vercel.app - v1
+  richard-stewart.vercel.app - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://erielle-joeshua-bancolita.vercel.app/" target="_blank">erielle-joeshua-bancolita.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of <a href="https://richard-stewart.vercel.app/" target="_blank">richard-stewart.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
-  <a href="https://erielle-joeshua-bancolita.vercel.app/" target="_blank">
+  <a href="https://richard-stewart.vercel.app/" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
 </p>
 
-![image](https://github.com/AmazingDev0815/erielle-bancolita-portfolio/assets/108821027/8325c686-04fc-49b9-94ad-11e54318c67b)
+![image](https://github.com/AmazingDev0815/richard-stewart-portfolio/assets/108821027/8325c686-04fc-49b9-94ad-11e54318c67b)
 
 ---
 ### Table of Contents
 
 - [Description](#description)
-- [Technologies and libraries ](#technologies-and-libraries)
-- [🎨 Color Reference](#references)
+- [Technologies and libraries](#technologies-and-libraries)
+      - [Note :](#note-)
+      - [You can find the rest of packages in the file ```/package.json```](#you-can-find-the-rest-of-packages-in-the-file-packagejson)
+- [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -67,7 +69,7 @@ Why Tailwindcss? Because TailwindCSS, a utility-first CSS framework, is a framew
 
 MIT License
 
-Copyright (c) [2023] [Erielle Joeshua Bancolita]
+Copyright (c) [2023] [Richard Stewart]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -93,8 +95,8 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Erielle Joeshua Bancolita](https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273/)
-- Website - [Erielle Joeshua Bancolita](https://erielle-joeshua-bancolita.vercel.app/)
+- Linkedin - [@Richard Stewart](https://www.linkedin.com/in/richard-stewart-ba1842273/)
+- Website - [Richard Stewart](https://richard-stewart-bancolita.vercel.app/)
 
 Built in 2023
 

@@ -32,9 +32,9 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/eriellebancolita017"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/winterstory-523"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/erielle-joeshua-bancolita-ba1842273/"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/richard-stewart-ba1842273/"} />
             {/* Telegram Icon */}
             <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/LioDev0308"} />
             {/* Discord Icon */}
@@ -62,9 +62,9 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:eriellebancolita017@gmail.com" target={"_blank"} rel="noreferrer">
+            <a href="mailto:richard.stewart0523@gmail.com" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                eriellebancolita017<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
+                richard.stewart0523<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
             </a>
           </motion.div>
